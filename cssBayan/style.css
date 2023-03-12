@@ -1,5 +1,31 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+#accordion {
+  color: blue;
+}
+#accordion:hover {
+  color: black;
+}
+.accord_item {
+  text-align: center;
+}
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+.accord_item img {
+  height: 0px;
+  transition: height 0.5s ease;
+}
+.accord_item:hover img,
+.accord_item:focus img {
+  height: 400px;
 }
